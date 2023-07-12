@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Home from "./components/home/home";
+import Home from "./components/home";
 // import Signup from "./components/signin signup/signup";
 import Signin from "./components/signin";
 // import Profile from "./components/profile/profile";
@@ -11,6 +11,9 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/*gecici*/}
+        <Route path="/" element={<Home />} />
+
         {/* <Route
           path="/"
           element={signedIn === "true" ? <Home /> : <Navigate to="/signin" />}

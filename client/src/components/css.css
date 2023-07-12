@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+.navbar-one-letter {
+  font-size: 3rem;
+}
+
+.navbar-after-one-letter {
+  font-size: 2.2rem;
+}
